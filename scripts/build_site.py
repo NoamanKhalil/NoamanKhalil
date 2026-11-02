@@ -58,7 +58,7 @@ POSTS = [
         "product_name": "Jabble",
         "html": """
 <p>On October 20 I wrote it down in public. After years of product work, I am building the apps myself.</p>
-<p>The long version of the résumé is ordinary and specific. Product at Apple, Tesla, TOPPAN Security, Bayut and Dubizzle. Before that, Namshi and HTC Vive. A bachelor’s from SAE in Dubai, and a master’s from Westcliff. None of that is a studio. Jabble is the studio.</p>
+<p>The long version of the résumé is ordinary and specific. Product at Tesla, TOPPAN Security, Bayut and Dubizzle. Before that, Namshi and HTC Vive. I worked at Apple, too. A bachelor’s from SAE in Dubai, and a master’s from Westcliff. None of that is a studio. Jabble is the studio.</p>
 <p><a href="https://jabble.si/?ref=noamankhalil">Jabble Super Intelligence</a> is where the Mac apps live. <a href="/blog/introducing-bondi">Bondi</a> tells you why a Mac is slow, in one sentence, and checks every number. <a href="/blog/wiggle-early-access">Wiggle</a> shows up at the cursor when you shake the mouse. A third Mac app has no name yet. I will describe it when there is something to show.</p>
 <p><a href="https://jabble.io/?ref=noamankhalil">Jabble.io</a> is the other thread: QR codes, short links, bio pages, file transfer, and campaign analytics. I built it because I was tired of paying for tools a small business should not have to rent.</p>
 <p>I am in San Francisco. Email is the reliable way to reach me. I read <a href="mailto:hi@noamankhalil.com">hi@noamankhalil.com</a>.</p>
@@ -257,7 +257,7 @@ def footer():
       <nav aria-label="Apps">
         <p class="footer-col-title">Apps</p>
         <ul class="footer-col-list">
-          <li><a class="footer-link" href="https://trybondi.app/?ref=noamankhalil" target="_blank" rel="noopener"><img class="footer-link-icon" src="/assets/img/products/bondi.svg" alt="" width="16" height="16" loading="lazy">Bondi</a></li>
+          <li><a class="footer-link" href="https://trybondi.app/?ref=noamankhalil" target="_blank" rel="noopener"><img class="footer-link-icon" src="/assets/img/products/bondi.png" alt="" width="16" height="16" loading="lazy">Bondi</a></li>
           <li><a class="footer-link" href="https://wigglemac.com/?ref=noamankhalil" target="_blank" rel="noopener"><img class="footer-link-icon" src="/assets/img/products/wiggle.svg" alt="" width="16" height="16" loading="lazy">Wiggle</a></li>
           <li><a class="footer-link" href="https://jabble.io/?ref=noamankhalil" target="_blank" rel="noopener"><img class="footer-link-icon" src="/assets/img/products/jabble.svg" alt="" width="16" height="16" loading="lazy">Jabble.io</a></li>
         </ul>
@@ -392,7 +392,7 @@ def home():
     </div>
     <p class="lead-in"><b>Mac apps.</b> Each one made for my own Mac first.</p>
     <ul class="tile-grid" role="list">
-      <li><a class="app-tile" href="https://trybondi.app/?ref=noamankhalil" target="_blank" rel="noopener"><span class="app-tile-panel" style="--g0:#1AA6B8;--g1:#0B4F8A"><img class="app-tile-icon" src="/assets/img/products/bondi.svg" alt="" width="72" height="72"></span><span class="tile-caption"><b>Bondi.</b> Why your Mac is slow, in one checked sentence.</span><span class="tile-meta">macOS · Alpha, then one-time purchase</span></a></li>
+      <li><a class="app-tile" href="https://trybondi.app/?ref=noamankhalil" target="_blank" rel="noopener"><span class="app-tile-panel" style="--g0:#1AA6B8;--g1:#0B4F8A"><img class="app-tile-icon" src="/assets/img/products/bondi.png" alt="" width="72" height="72"></span><span class="tile-caption"><b>Bondi.</b> Why your Mac is slow, in one checked sentence.</span><span class="tile-meta">macOS · Alpha, then one-time purchase</span></a></li>
       <li><a class="app-tile" href="https://wigglemac.com/?ref=noamankhalil" target="_blank" rel="noopener"><span class="app-tile-panel" style="--g0:#FF6B6B;--g1:#5B4DFF"><img class="app-tile-icon" src="/assets/img/products/wiggle.svg" alt="" width="72" height="72"></span><span class="tile-caption"><b>Wiggle.</b> Shake the mouse. An assistant appears at the cursor.</span><span class="tile-meta">macOS · Early access</span></a></li>
       <li><div class="app-tile"><span class="app-tile-panel" style="--g0:#A5A3FF;--g1:#5E5CE6"><img class="app-tile-icon app-tile-icon-small" src="/assets/img/products/soon.svg" alt="" width="56" height="56"></span><span class="tile-caption"><b>A third Mac app.</b> No name yet. I’ll say what it is when there is something to show.</span><span class="tile-meta">In the works</span></div></li>
     </ul>
@@ -405,11 +405,11 @@ def home():
     <div class="project-group">
       <p class="lead-in"><b>Other projects.</b> Built before the Mac apps, still public, free.</p>
       <ul class="project-list" role="list">
-        <li><a class="project-row" href="https://github.com/NoamanKhalil/project-nomad-MacOs" target="_blank" rel="noopener"><img class="project-row-icon" src="/assets/img/products/nomad.svg" alt="" width="32" height="32"><span class="project-row-text"><span class="tile-caption"><b>Nomad.</b> An offline survival computer, ported to the Mac.</span></span></a></li>
+        <li><a class="project-row" href="https://github.com/NoamanKhalil/project-nomad-MacOs" target="_blank" rel="noopener"><img class="project-row-icon" src="/assets/img/products/nomad.png" alt="" width="32" height="32"><span class="project-row-text"><span class="tile-caption"><b>Nomad.</b> An offline survival computer, ported to the Mac.</span></span></a></li>
         <li><a class="project-row" href="https://github.com/NoamanKhalil/Keyboard-pico" target="_blank" rel="noopener"><img class="project-row-icon" src="/assets/img/products/keyboard.svg" alt="" width="32" height="32"><span class="project-row-text"><span class="tile-caption"><b>Keyboard.</b> A keyboard I designed, open sourced.</span></span></a></li>
       </ul>
     </div>
-    <p class="lead-in">Before the apps I worked in product at Tesla, TOPPAN Security, Bayut and Dubizzle.</p>
+    <p class="lead-in">Before the apps I worked in product at Tesla, TOPPAN Security, Bayut and Dubizzle. I worked at Apple, too.</p>
   </section>
   <section class="content-section writing-preview">
     <div class="section-head section-head-row">
@@ -520,7 +520,7 @@ def ask_ai(post):
 
 def dev_apps():
     return """<aside class="dev-apps" aria-label="My Mac apps"><p class="dev-apps-label">My Mac apps</p><ul class="dev-apps-list" role="list">
-      <li><a class="dev-app" href="https://trybondi.app/?ref=noamankhalil" target="_blank" rel="noopener"><img class="dev-app-icon" src="/assets/img/products/bondi.svg" alt="" width="36" height="36"><span class="dev-app-text"><span class="dev-app-name">Bondi</span><span class="dev-app-pitch">Why your Mac is slow, in one sentence</span></span></a></li>
+      <li><a class="dev-app" href="https://trybondi.app/?ref=noamankhalil" target="_blank" rel="noopener"><img class="dev-app-icon" src="/assets/img/products/bondi.png" alt="" width="36" height="36"><span class="dev-app-text"><span class="dev-app-name">Bondi</span><span class="dev-app-pitch">Why your Mac is slow, in one sentence</span></span></a></li>
       <li><a class="dev-app" href="https://wigglemac.com/?ref=noamankhalil" target="_blank" rel="noopener"><img class="dev-app-icon" src="/assets/img/products/wiggle.svg" alt="" width="36" height="36"><span class="dev-app-text"><span class="dev-app-name">Wiggle</span><span class="dev-app-pitch">The assistant at your cursor</span></span></a></li>
     </ul></aside>"""
 
@@ -594,7 +594,7 @@ def about():
   </section>
   <section class="content-section">
     <h2 class="section-title">Before the apps</h2>
-    <p class="prose-line">Product at Apple, Tesla, TOPPAN Security, Bayut and Dubizzle. Before that I worked at Namshi and HTC Vive. I studied at SAE in Dubai and did a master’s at Westcliff, where I also helped in the writing center.</p>
+    <p class="prose-line">Product at Tesla, TOPPAN Security, Bayut and Dubizzle. Before that I worked at Namshi and HTC Vive. I worked at Apple, too. I studied at SAE in Dubai and did a master’s at Westcliff, where I also helped in the writing center.</p>
     <p class="prose-line">I still write code. The public trail is on <a class="inline-link" href="https://github.com/NoamanKhalil">GitHub</a>: C#, JavaScript, C++, Python, and a lot of React.</p>
   </section>
   <section class="content-section">
