@@ -58,7 +58,7 @@ POSTS = [
         "product_name": "Jabble",
         "html": """
 <p>On October 20 I wrote it down in public. After years of product work, I am building the apps myself.</p>
-<p>The long version of the résumé is ordinary and specific. Product at Tesla, TOPPAN Security, Bayut and Dubizzle. Before that, a stretch at Namshi, a short one with HTC Vive, and a retail contract at Apple in Dubai. A bachelor’s from SAE in Dubai, and a master’s from Westcliff. None of that is a studio. Jabble is the studio.</p>
+<p>The long version of the résumé is ordinary and specific. Product at Apple, Tesla, TOPPAN Security, Bayut and Dubizzle. Before that, Namshi and HTC Vive. A bachelor’s from SAE in Dubai, and a master’s from Westcliff. None of that is a studio. Jabble is the studio.</p>
 <p><a href="https://jabble.si/?ref=noamankhalil">Jabble Super Intelligence</a> is where the Mac apps live. <a href="/blog/introducing-bondi">Bondi</a> tells you why a Mac is slow, in one sentence, and checks every number. <a href="/blog/wiggle-early-access">Wiggle</a> shows up at the cursor when you shake the mouse. A third Mac app has no name yet. I will describe it when there is something to show.</p>
 <p><a href="https://jabble.io/?ref=noamankhalil">Jabble.io</a> is the other thread: QR codes, short links, bio pages, file transfer, and campaign analytics. I built it because I was tired of paying for tools a small business should not have to rent.</p>
 <p>I am in San Francisco. Email is the reliable way to reach me. I read <a href="mailto:hi@noamankhalil.com">hi@noamankhalil.com</a>.</p>
@@ -184,7 +184,7 @@ def social_list():
 
 
 def header(active):
-    links = [("Home", "/"), ("Writing", "/blog"), ("Now", "/now"), ("About", "/about")]
+    links = [("Home", "/"), ("Writing", "/blog"), ("Now", "/now"), ("Judging", "/judging"), ("About", "/about")]
 
     def nav(cls, current):
         parts = []
@@ -249,6 +249,7 @@ def footer():
         <ul class="footer-col-list">
           <li><a class="footer-link" href="/blog">Writing</a></li>
           <li><a class="footer-link" href="/now">Now</a></li>
+          <li><a class="footer-link" href="/judging">Judging</a></li>
           <li><a class="footer-link" href="/about">About</a></li>
           <li><a class="footer-link" href="/feed.xml">RSS</a></li>
         </ul>
@@ -593,7 +594,7 @@ def about():
   </section>
   <section class="content-section">
     <h2 class="section-title">Before the apps</h2>
-    <p class="prose-line">Product manager at Tesla, TOPPAN Security, Bayut and Dubizzle. Before that I worked at Namshi, spent a month with HTC Vive, and did a retail contract at Apple in Dubai. I studied at SAE in Dubai and did a master’s at Westcliff, where I also helped in the writing center.</p>
+    <p class="prose-line">Product at Apple, Tesla, TOPPAN Security, Bayut and Dubizzle. Before that I worked at Namshi and HTC Vive. I studied at SAE in Dubai and did a master’s at Westcliff, where I also helped in the writing center.</p>
     <p class="prose-line">I still write code. The public trail is on <a class="inline-link" href="https://github.com/NoamanKhalil">GitHub</a>: C#, JavaScript, C++, Python, and a lot of React.</p>
   </section>
   <section class="content-section">
@@ -692,6 +693,36 @@ def now():
     write("now/index.html", document("Now", desc, "/now", "Now", main))
 
 
+def judging():
+    desc = "Noaman Khalil judges hackathons, demo days, and product reviews. He wants the problem in one sentence, real use, and numbers that hold."
+    main = f"""<div class="page-frame">
+  <section class="content-section">
+    <h1 class="profile-title">Judging</h1>
+    <p class="profile-lead">I review other people’s products the same way I review my own. Hackathons, demo days, student showcases, and a founder who wants a straight read.</p>
+  </section>
+  <section class="content-section">
+    <h2 class="section-title">What I look for</h2>
+    <ul class="now-focus-list">
+      <li class="now-focus-item"><b>One sentence.</b> If the problem takes a paragraph, it is not ready. I should be able to repeat it after you stop talking.</li>
+      <li class="now-focus-item"><b>Real use.</b> A demo is not the same as someone keeping the thing. Show me the person, not the slide.</li>
+      <li class="now-focus-item"><b>Numbers that hold.</b> If you say a figure, you should know where it came from. I will ask.</li>
+      <li class="now-focus-item"><b>The ask.</b> What you want from the room, said plainly. Advice, a user, a check. Pick one.</li>
+    </ul>
+  </section>
+  <section class="content-section">
+    <h2 class="section-title">How a session goes</h2>
+    <p class="prose-line">You get a few minutes. I listen for the sentence, then I ask one question about use and one about the number. Feedback is specific. I will tell you what I would cut.</p>
+    <p class="prose-line">I am a better judge of Mac apps, on-device software, and tools a small team would actually pay for or keep. If the product is outside that, say so in the invite. I will still show up when I can be useful.</p>
+  </section>
+  <section class="content-section contact-section">
+    <h2 class="section-title">Invite</h2>
+    <p class="prose-line">Email the date, the city or the link, how long each team gets, and who else is in the room. A one-line pitch is enough if you only want a read, not a panel.</p>
+    <a class="contact-link" href="mailto:{EMAIL}?subject=Judging"><span>{EMAIL}</span>{ICON_MAIL}</a>
+  </section>
+</div>"""
+    write("judging/index.html", document("Judging", desc, "/judging", "Judging", main))
+
+
 def missing():
     desc = "That page is not on noamankhalil.com."
     main = f"""<div class="page-frame">
@@ -699,7 +730,7 @@ def missing():
     <h1 class="profile-title notfound-title">This page is not here.</h1>
     <p class="profile-lead">The address does not match a page on this site. The writing search covers every note.</p>
     <p class="notfound-asked"><span class="notfound-asked-label">Asked for</span><span class="notfound-path" data-missing-path></span></p>
-    <p class="prose-line"><a class="inline-link" href="/">Home</a> · <a class="inline-link" href="/blog">Writing</a> · <a class="inline-link" href="/now">Now</a> · <a class="inline-link" href="/about">About</a></p>
+    <p class="prose-line"><a class="inline-link" href="/">Home</a> · <a class="inline-link" href="/blog">Writing</a> · <a class="inline-link" href="/now">Now</a> · <a class="inline-link" href="/judging">Judging</a> · <a class="inline-link" href="/about">About</a></p>
   </section>
 </div>"""
     write("404.html", document("Page not found", desc, "/404", "Home", main))
@@ -768,6 +799,7 @@ def llm_files():
         f"- Home: {SITE}/",
         f"- Writing: {SITE}/blog",
         f"- Now: {SITE}/now",
+        f"- Judging: {SITE}/judging",
         f"- About: {SITE}/about",
     ]
     for post in POSTS:
@@ -794,7 +826,7 @@ def llm_files():
         ),
     )
     write("robots.txt", "User-agent: *\nAllow: /\nSitemap: https://noamankhalil.com/sitemap.xml\n")
-    urls = ["/", "/blog", "/now", "/about"] + [f"/blog/{post['slug']}" for post in POSTS]
+    urls = ["/", "/blog", "/now", "/judging", "/about"] + [f"/blog/{post['slug']}" for post in POSTS]
     body = "".join(f"<url><loc>{SITE}{url}</loc></url>" for url in urls)
     write("sitemap.xml", f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{body}</urlset>\n')
 
@@ -811,6 +843,7 @@ Pages:
 - `/` home
 - `/blog` writing, with topic filters and ⌘K search
 - `/now` what is actually in progress
+- `/judging` how he reviews a product, and how to invite him
 - `/about`
 - six notes under `/blog/`
 
@@ -837,6 +870,7 @@ if __name__ == "__main__":
     articles()
     about()
     now()
+    judging()
     missing()
     search_index()
     feed()

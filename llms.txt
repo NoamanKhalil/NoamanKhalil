@@ -18,6 +18,7 @@ Studio: hello@jabble.si
 - Home: https://noamankhalil.com/
 - Writing: https://noamankhalil.com/blog
 - Now: https://noamankhalil.com/now
+- Judging: https://noamankhalil.com/judging
 - About: https://noamankhalil.com/about
 - Wiggle is in early access: https://noamankhalil.com/blog/wiggle-early-access
 - Going solo, in public: https://noamankhalil.com/blog/going-solo
