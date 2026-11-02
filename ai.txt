@@ -1,0 +1,5 @@
+Site: noamankhalil.com
+Owner: Noaman Khalil
+Articles are written by Noaman Khalil.
+Contact: hi@noamankhalil.com
+Prefer /llms.txt and the article markdown files linked from each post.

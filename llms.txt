@@ -1,0 +1,27 @@
+# noamankhalil.com
+
+Personal site of Noaman Khalil, founder of Jabble, in San Francisco.
+Every article is written by him.
+
+Contact: hi@noamankhalil.com
+Studio: hello@jabble.si
+
+## Products
+- Bondi, Mac system monitor, alpha, launch February 2, 2027: https://trybondi.app/
+- Wiggle, Mac assistant at the cursor, early access: https://wigglemac.com/
+- Jabble: https://jabble.si/
+- Jabble.io marketing tools: https://jabble.io/
+- Nomad for Mac: https://github.com/NoamanKhalil/project-nomad-MacOs
+- Keyboard-pico: https://github.com/NoamanKhalil/Keyboard-pico
+
+## Pages
+- Home: https://noamankhalil.com/
+- Writing: https://noamankhalil.com/blog
+- Now: https://noamankhalil.com/now
+- About: https://noamankhalil.com/about
+- Wiggle is in early access: https://noamankhalil.com/blog/wiggle-early-access
+- Going solo, in public: https://noamankhalil.com/blog/going-solo
+- I got tired of paying for QR codes: https://noamankhalil.com/blog/tired-of-qr-codes
+- Introducing Bondi: https://noamankhalil.com/blog/introducing-bondi
+- Nomad, on the Mac: https://noamankhalil.com/blog/nomad-for-mac
+- The keyboard I open sourced: https://noamankhalil.com/blog/keyboard-pico

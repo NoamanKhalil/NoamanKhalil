@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://noamankhalil.com/sitemap.xml

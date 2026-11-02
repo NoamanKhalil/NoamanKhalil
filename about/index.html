@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+(function () {
+  document.documentElement.classList.add('js');
+  try {
+    var stored = localStorage.getItem('theme');
+    if (stored === 'light' || stored === 'dark') document.documentElement.setAttribute('data-theme', stored);
+  } catch (e) {}
+})();
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About</title>
+<meta name="description" content="Noaman Khalil is the founder of Jabble. He builds Bondi and Wiggle, two on-device Mac apps, and writes every article on this site himself.">
+<meta name="author" content="Noaman Khalil">
+<link rel="icon" type="image/svg+xml" href="/assets/img/ico/favicon.svg">
+<link rel="manifest" href="/assets/img/ico/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Geist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/site.css">
+<link rel="canonical" href="https://noamankhalil.com/about">
+<link rel="alternate" type="application/rss+xml" title="Noaman Khalil" href="/feed.xml">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@KhalilNoaman">
+<meta name="twitter:creator" content="@KhalilNoaman">
+<meta name="twitter:title" content="About">
+<meta name="twitter:description" content="Noaman Khalil is the founder of Jabble. He builds Bondi and Wiggle, two on-device Mac apps, and writes every article on this site himself.">
+<meta property="og:title" content="About">
+<meta property="og:description" content="Noaman Khalil is the founder of Jabble. He builds Bondi and Wiggle, two on-device Mac apps, and writes every article on this site himself.">
+<meta property="og:url" content="https://noamankhalil.com/about">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="noamankhalil.com">
+<meta property="og:image" content="https://noamankhalil.com/assets/img/noaman.jpg">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://noamankhalil.com/#person", "name": "Noaman Khalil", "alternateName": "Noaman", "url": "https://noamankhalil.com/about", "image": "https://noamankhalil.com/assets/img/noaman.jpg", "email": "mailto:hi@noamankhalil.com", "jobTitle": "Founder of Jabble", "homeLocation": "San Francisco, California", "description": "Noaman Khalil builds on-device Mac apps under Jabble, including Bondi and Wiggle, and writes about the work at noamankhalil.com.", "sameAs": ["https://x.com/KhalilNoaman", "https://github.com/NoamanKhalil", "https://www.linkedin.com/in/noamank", "https://www.youtube.com/channel/UCtg4sirNQu0z3b1VhSxiKQA", "https://jabble.si/", "https://jabble.io/"]}, {"@type": "WebSite", "@id": "https://noamankhalil.com/#website", "name": "noamankhalil.com", "url": "https://noamankhalil.com/", "description": "Noaman Khalil builds on-device Mac apps under Jabble and writes about the work.", "publisher": {"@id": "https://noamankhalil.com/#person"}}]}</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="topbar">
+    <button class="menu-button" type="button" aria-controls="site-menu" aria-expanded="false" aria-label="Open menu">
+      <span class="menu-button-open" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M5 8H19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"></path><path d="M5 16H19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"></path></svg></span>
+      <span class="menu-button-close" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6 6L18 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"></path><path d="M6 18L18 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"></path></svg></span>
+    </button>
+    <a class="topbar-brand" href="/" aria-label="Noaman, home">
+      <img class="topbar-avatar" src="/assets/img/noaman.jpg" alt="" width="24" height="24">
+      <span>Noaman</span>
+    </a>
+    <nav class="topbar-nav" aria-label="Primary"><a class="topbar-nav-link" href="/">Home</a><a class="topbar-nav-link" href="/blog">Writing</a><a class="topbar-nav-link" href="/now">Now</a><a class="topbar-nav-link is-active" href="/about">About</a></nav>
+    <div class="topbar-actions">
+      <button class="search-button" type="button" aria-controls="article-search" aria-expanded="false" aria-label="Search articles"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M10.75 18.5C15.0302 18.5 18.5 15.0302 18.5 10.75C18.5 6.46979 15.0302 3 10.75 3C6.46979 3 3 6.46979 3 10.75C3 15.0302 6.46979 18.5 10.75 18.5Z" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16.25 16.25L21 21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"></path></svg></button>
+      <button class="theme-button" type="button" aria-label="Switch theme">
+        <span class="theme-button-light" aria-hidden="true"><svg width="19" height="19" viewBox="0 0 24 24" fill="none"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11Z" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"></path></svg></span>
+        <span class="theme-button-dark" aria-hidden="true"><svg width="19" height="19" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.9"></circle><path d="M12 2.6v2.2M12 19.2v2.2M21.4 12h-2.2M4.8 12H2.6M18.6 5.4l-1.6 1.6M7 17l-1.6 1.6M18.6 18.6 17 17M7 7 5.4 5.4" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"></path></svg></span>
+      </button>
+    </div>
+  </div>
+  <div class="menu-overlay" id="site-menu" hidden>
+    <nav class="menu-nav" aria-label="Primary"><div class="menu-list"><a class="menu-link" href="/">Home</a><a class="menu-link" href="/blog">Writing</a><a class="menu-link" href="/now">Now</a><a class="menu-link is-active" href="/about">About</a></div></nav>
+  </div>
+  <div class="search-dialog" id="article-search" role="dialog" aria-modal="true" aria-labelledby="article-search-title" hidden>
+    <div class="search-panel">
+      <h2 class="sr-only" id="article-search-title">Search articles</h2>
+      <div class="search-field">
+        <svg class="search-field-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M10.75 18.5C15.0302 18.5 18.5 15.0302 18.5 10.75C18.5 6.46979 15.0302 3 10.75 3C6.46979 3 3 6.46979 3 10.75C3 15.0302 6.46979 18.5 10.75 18.5Z" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16.25 16.25L21 21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"></path></svg>
+        <label class="sr-only" for="article-search-input">Search articles</label>
+        <input class="search-input" id="article-search-input" type="search" placeholder="Search articles" autocomplete="off" spellcheck="false" role="combobox" aria-expanded="false" aria-controls="search-results" aria-autocomplete="list">
+        <button class="search-close" type="button" aria-label="Close search">esc</button>
+      </div>
+      <p class="search-status" data-search-status>Start typing to search articles.</p>
+      <ul class="search-results" id="search-results" data-search-results role="listbox"></ul>
+      <div class="search-foot" aria-hidden="true">
+        <span class="search-hint"><kbd>↑</kbd><kbd>↓</kbd> to move</span>
+        <span class="search-hint"><kbd>↵</kbd> to open</span>
+      </div>
+    </div>
+  </div>
+</header>
+<main>
+<div class="page-frame">
+  <section class="content-section profile-section">
+    <img class="avatar" src="/assets/img/noaman.jpg" alt="Noaman Khalil" width="84" height="84">
+    <h1 class="profile-title">Noaman Khalil</h1>
+    <p class="profile-lead">I’m a product person and the founder of <a class="inline-link" href="https://jabble.si/?ref=noamankhalil">Jabble</a>. I design, build, and ship on-device Mac apps, and I write about how that actually goes. I live in San Francisco.</p>
+  </section>
+  <section class="content-section">
+    <h2 class="section-title">Who writes this site</h2>
+    <p class="prose-line">Every article on noamankhalil.com is written, edited, and published by me, Noaman Khalil. There is no editorial team. If something here is wrong, it is my mistake, and you can tell me at <a class="inline-link" href="mailto:hi@noamankhalil.com">hi@noamankhalil.com</a>.</p>
+    <p class="prose-line">The archive is short on purpose. I would rather have six notes that match the products than a pile of posts I did not write.</p>
+  </section>
+  <section class="content-section">
+    <h2 class="section-title">The studio</h2>
+    <p class="prose-line"><a class="inline-link" href="https://jabble.si/?ref=noamankhalil">Jabble</a> builds AI that runs on the machine you already have. No pitch deck. The test is whether I use the thing on my own Mac, and whether someone else would keep it.</p>
+    <p class="prose-line">Today that is Bondi, a system monitor that explains a slow Mac in one checked sentence, and Wiggle, an assistant that appears at the cursor. A third Mac app has no name yet. <a class="inline-link" href="https://jabble.io/?ref=noamankhalil">Jabble.io</a> is the marketing toolkit: QR codes, short links, bio pages, file transfer, and campaign analytics.</p>
+  </section>
+  <section class="content-section">
+    <h2 class="section-title">What I build</h2>
+    <p class="prose-line">I own and operate these. When I write about them here, I am writing about my own work.</p>
+    <ul class="now-focus-list">
+      <li class="now-focus-item"><b>Bondi.</b> Why your Mac is slow, in one sentence. The number is measured, then checked. <a class="inline-link" href="https://trybondi.app/?ref=noamankhalil">trybondi.app</a></li>
+      <li class="now-focus-item"><b>Wiggle.</b> Shake the mouse. Chat, screenshot, voice, or a recorded workflow, at the cursor. <a class="inline-link" href="https://wigglemac.com/?ref=noamankhalil">wigglemac.com</a></li>
+      <li class="now-focus-item"><b>A third Mac app.</b> In development. No name until there is something to show.</li>
+      <li class="now-focus-item"><b>Jabble.io.</b> QR codes, short links, bio pages, and campaign analytics. <a class="inline-link" href="https://jabble.io/?ref=noamankhalil">jabble.io</a></li>
+      <li class="now-focus-item"><b>Nomad for Mac.</b> An offline survival computer. <a class="inline-link" href="https://github.com/NoamanKhalil/project-nomad-MacOs">GitHub</a></li>
+      <li class="now-focus-item"><b>Keyboard-pico.</b> A keyboard I open sourced. <a class="inline-link" href="https://github.com/NoamanKhalil/Keyboard-pico">GitHub</a></li>
+    </ul>
+  </section>
+  <section class="content-section">
+    <h2 class="section-title">Before the apps</h2>
+    <p class="prose-line">Product manager at Tesla, TOPPAN Security, Bayut and Dubizzle. Before that I worked at Namshi, spent a month with HTC Vive, and did a retail contract at Apple in Dubai. I studied at SAE in Dubai and did a master’s at Westcliff, where I also helped in the writing center.</p>
+    <p class="prose-line">I still write code. The public trail is on <a class="inline-link" href="https://github.com/NoamanKhalil">GitHub</a>: C#, JavaScript, C++, Python, and a lot of React.</p>
+  </section>
+  <section class="content-section">
+    <h2 class="section-title">Business details</h2>
+    <ul class="now-focus-list">
+      <li class="now-focus-item"><b>Studio.</b> Jabble, at <a class="inline-link" href="https://jabble.si/?ref=noamankhalil">jabble.si</a>. Studio email <a class="inline-link" href="mailto:hello@jabble.si">hello@jabble.si</a>.</li>
+      <li class="now-focus-item"><b>Marketing tools.</b> <a class="inline-link" href="https://jabble.io/?ref=noamankhalil">jabble.io</a>.</li>
+      <li class="now-focus-item"><b>This site.</b> <a class="inline-link" href="mailto:hi@noamankhalil.com">hi@noamankhalil.com</a>.</li>
+      <li class="now-focus-item"><b>Bondi’s price.</b> Published on trybondi.app. As of November 1, 2026: a 14-day trial, then a one-time license. The first 250 are $9.99, then $24.99. Launch day on that page is February 2, 2027. If this page and that page ever disagree, that page wins.</li>
+    </ul>
+  </section>
+  <section class="content-section contact-section">
+    <h2 class="section-title">Contact</h2>
+    <p class="prose-line">Email is the most reliable way to reach me, whether it is a correction, a question, or work.</p>
+    <a class="contact-link" href="mailto:hi@noamankhalil.com"><span>hi@noamankhalil.com</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4.75 6.75H19.25V17.25H4.75V6.75Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path><path d="M5.25 7.25L12 13L18.75 7.25" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+    <p class="prose-line">Elsewhere: <a class="inline-link" href="https://x.com/KhalilNoaman">X</a>, <a class="inline-link" href="https://github.com/NoamanKhalil">GitHub</a>, <a class="inline-link" href="https://www.linkedin.com/in/noamank">LinkedIn</a> and <a class="inline-link" href="https://www.youtube.com/channel/UCtg4sirNQu0z3b1VhSxiKQA">YouTube</a>.</p>
+  </section>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="footer-frame">
+    <div class="footer-grid">
+      <div class="footer-identity">
+        <p class="footer-name">Noaman Khalil</p>
+        <p class="footer-statement">noamankhalil.com is my personal site. Every article here is written, edited and published by me, the founder of <a class="footer-inline-link" href="https://jabble.si/?ref=noamankhalil" rel="noopener me">Jabble</a>.</p>
+        <a class="footer-email" href="mailto:hi@noamankhalil.com">hi@noamankhalil.com</a>
+      </div>
+      <nav aria-label="Site">
+        <p class="footer-col-title">Site</p>
+        <ul class="footer-col-list">
+          <li><a class="footer-link" href="/blog">Writing</a></li>
+          <li><a class="footer-link" href="/now">Now</a></li>
+          <li><a class="footer-link" href="/about">About</a></li>
+          <li><a class="footer-link" href="/feed.xml">RSS</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Apps">
+        <p class="footer-col-title">Apps</p>
+        <ul class="footer-col-list">
+          <li><a class="footer-link" href="https://trybondi.app/?ref=noamankhalil" target="_blank" rel="noopener"><img class="footer-link-icon" src="/assets/img/products/bondi.svg" alt="" width="16" height="16" loading="lazy">Bondi</a></li>
+          <li><a class="footer-link" href="https://wigglemac.com/?ref=noamankhalil" target="_blank" rel="noopener"><img class="footer-link-icon" src="/assets/img/products/wiggle.svg" alt="" width="16" height="16" loading="lazy">Wiggle</a></li>
+          <li><a class="footer-link" href="https://jabble.io/?ref=noamankhalil" target="_blank" rel="noopener"><img class="footer-link-icon" src="/assets/img/products/jabble.svg" alt="" width="16" height="16" loading="lazy">Jabble.io</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Elsewhere">
+        <p class="footer-col-title">Elsewhere</p>
+        <ul class="footer-col-list">
+          <li><a class="footer-link" href="https://x.com/KhalilNoaman" target="_blank" rel="noopener">X</a></li>
+          <li><a class="footer-link" href="https://github.com/NoamanKhalil" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a class="footer-link" href="https://www.linkedin.com/in/noamank" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a class="footer-link" href="https://www.youtube.com/channel/UCtg4sirNQu0z3b1VhSxiKQA" target="_blank" rel="noopener">YouTube</a></li>
+          <li><a class="footer-link" href="https://jabble.si/?ref=noamankhalil" target="_blank" rel="noopener">Jabble</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Noaman Khalil. All articles are the author’s own work.</p>
+      <p>For AI: <a href="/llms.txt">llms.txt</a> · <a href="/llms-full.txt">llms-full.txt</a> · <a href="/ai.txt">ai.txt</a></p>
+    </div>
+  </div>
+</footer>
+<script src="/js/site.js"></script>
+</body>
+</html>

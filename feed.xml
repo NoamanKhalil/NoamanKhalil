@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Noaman Khalil</title>
+    <link>https://noamankhalil.com/</link>
+    <description>Notes on Bondi, Wiggle, Jabble, and the work around them.</description>
+    <item>
+      <title>Wiggle is in early access</title>
+      <link>https://noamankhalil.com/blog/wiggle-early-access</link>
+      <guid>https://noamankhalil.com/blog/wiggle-early-access</guid>
+      <pubDate>2026-11-01</pubDate>
+      <description>Wiggle is an early-access Mac assistant. Shake the mouse and it appears at the cursor so you can chat, screenshot, ask out loud, or replay clicks and typing.</description>
+    </item><item>
+      <title>Going solo, in public</title>
+      <link>https://noamankhalil.com/blog/going-solo</link>
+      <guid>https://noamankhalil.com/blog/going-solo</guid>
+      <pubDate>2026-10-20</pubDate>
+      <description>After product roles at Tesla, TOPPAN Security, Bayut and Dubizzle, I am building my own Mac apps under Jabble and writing about it here.</description>
+    </item><item>
+      <title>I got tired of paying for QR codes</title>
+      <link>https://noamankhalil.com/blog/tired-of-qr-codes</link>
+      <guid>https://noamankhalil.com/blog/tired-of-qr-codes</guid>
+      <pubDate>2026-10-09</pubDate>
+      <description>Jabble.io is the marketing toolkit I built for myself: QR code menus, file transfer, short links, bio pages, and campaign analytics. Most of the useful parts are free.</description>
+    </item><item>
+      <title>Introducing Bondi</title>
+      <link>https://noamankhalil.com/blog/introducing-bondi</link>
+      <guid>https://noamankhalil.com/blog/introducing-bondi</guid>
+      <pubDate>2026-10-03</pubDate>
+      <description>Bondi is a native Mac system monitor in alpha. It groups processes into apps and writes one checked sentence about why the Mac is slow. Launch is February 2, 2027.</description>
+    </item><item>
+      <title>Nomad, on the Mac</title>
+      <link>https://noamankhalil.com/blog/nomad-for-mac</link>
+      <guid>https://noamankhalil.com/blog/nomad-for-mac</guid>
+      <pubDate>2026-03-17</pubDate>
+      <description>Project N.O.M.A.D is an offline survival computer. It did not have a native Mac version, so I made one. The repo has been public since March 17, 2026.</description>
+    </item><item>
+      <title>The keyboard I open sourced</title>
+      <link>https://noamankhalil.com/blog/keyboard-pico</link>
+      <guid>https://noamankhalil.com/blog/keyboard-pico</guid>
+      <pubDate>2026-02-20</pubDate>
+      <description>Keyboard-pico is a keyboard I built and open sourced. The repository has been public since February 20, 2026.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,67 @@
+[
+  {
+    "title": "Wiggle is in early access",
+    "short_title": "Wiggle, early access",
+    "description": "Wiggle is an early-access Mac assistant. Shake the mouse and it appears at the cursor so you can chat, screenshot, ask out loud, or replay clicks and typing.",
+    "url": "/blog/wiggle-early-access",
+    "date": "Nov 1, 2026",
+    "categories": [
+      "Mac",
+      "Product",
+      "On-device AI"
+    ]
+  },
+  {
+    "title": "Going solo, in public",
+    "short_title": "Going solo",
+    "description": "After product roles at Tesla, TOPPAN Security, Bayut and Dubizzle, I am building my own Mac apps under Jabble and writing about it here.",
+    "url": "/blog/going-solo",
+    "date": "Oct 20, 2026",
+    "categories": [
+      "Product"
+    ]
+  },
+  {
+    "title": "I got tired of paying for QR codes",
+    "short_title": "Jabble.io",
+    "description": "Jabble.io is the marketing toolkit I built for myself: QR code menus, file transfer, short links, bio pages, and campaign analytics. Most of the useful parts are free.",
+    "url": "/blog/tired-of-qr-codes",
+    "date": "Oct 9, 2026",
+    "categories": [
+      "Product"
+    ]
+  },
+  {
+    "title": "Introducing Bondi",
+    "short_title": "Introducing Bondi",
+    "description": "Bondi is a native Mac system monitor in alpha. It groups processes into apps and writes one checked sentence about why the Mac is slow. Launch is February 2, 2027.",
+    "url": "/blog/introducing-bondi",
+    "date": "Oct 3, 2026",
+    "categories": [
+      "Mac",
+      "Product",
+      "On-device AI"
+    ]
+  },
+  {
+    "title": "Nomad, on the Mac",
+    "short_title": "Nomad for Mac",
+    "description": "Project N.O.M.A.D is an offline survival computer. It did not have a native Mac version, so I made one. The repo has been public since March 17, 2026.",
+    "url": "/blog/nomad-for-mac",
+    "date": "Mar 17, 2026",
+    "categories": [
+      "Mac",
+      "Open source"
+    ]
+  },
+  {
+    "title": "The keyboard I open sourced",
+    "short_title": "Keyboard",
+    "description": "Keyboard-pico is a keyboard I built and open sourced. The repository has been public since February 20, 2026.",
+    "url": "/blog/keyboard-pico",
+    "date": "Feb 20, 2026",
+    "categories": [
+      "Open source"
+    ]
+  }
+]

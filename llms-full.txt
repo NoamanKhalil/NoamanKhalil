@@ -1,0 +1,25 @@
+# noamankhalil.com, full text for AI tools
+
+## Wiggle is in early access
+Nov 1, 2026
+Wiggle is an early-access Mac app. Shake the mouse and it appears at the cursor. You choose Chat, Screenshot, Voice, or Workflow. It can use Apple Intelligence, a local model through Ollama, or your own Claude or OpenAI key. There is no account.
+
+## Going solo, in public
+Oct 20, 2026
+I am building indie Mac apps under Jabble, in public, from San Francisco. The two you can look at today are Bondi and Wiggle. Jabble.io is the marketing toolkit I shipped because I was tired of paying for QR codes.
+
+## I got tired of paying for QR codes
+Oct 9, 2026
+Jabble.io does QR code menus, file transfer, short links, bio pages, and campaign analytics. I built it because rented QR tools added up. Most of the useful parts cost nothing to start.
+
+## Introducing Bondi
+Oct 3, 2026
+Bondi is a native macOS system monitor in alpha. It groups helper processes under the app that started them and writes one sentence about why the Mac is slow. Bondi measures every number. The on-device model only writes the words, and a wrong number is thrown out. Launch is Tuesday, February 2, 2027.
+
+## Nomad, on the Mac
+Mar 17, 2026
+Project N.O.M.A.D is a self-contained offline computer for tools, reference, and local AI. I ported it to the Mac. The repository has been public since March 17, 2026, and it had 41 GitHub stars on November 1, 2026.
+
+## The keyboard I open sourced
+Feb 20, 2026
+Keyboard-pico is a keyboard I designed and open sourced so other people could build from it. The repository has been public since February 20, 2026, and it had 4 GitHub stars on November 1, 2026.
