@@ -9,6 +9,7 @@ Studio: hello@jabble.si
 ## Products
 - Bondi, Mac system monitor, alpha, launch February 2, 2027: https://trybondi.app/
 - Wiggle, Mac assistant at the cursor, early access: https://wigglemac.com/
+- Nothcy, the next Mac app: https://trynothcy.app/
 - Jabble: https://jabble.si/
 - Jabble.io marketing tools: https://jabble.io/
 - Nomad for Mac: https://github.com/NoamanKhalil/project-nomad-MacOs

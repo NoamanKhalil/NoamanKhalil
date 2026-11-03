@@ -6,7 +6,7 @@ Wiggle is an early-access Mac app. Shake the mouse and it appears at the cursor.
 
 ## Going solo, in public
 Oct 20, 2026
-I am building indie Mac apps under Jabble, in public, from San Francisco. The two you can look at today are Bondi and Wiggle. Jabble.io is the marketing toolkit I shipped because I was tired of paying for QR codes.
+I am building indie Mac apps under Jabble, in public, from San Francisco. Bondi and Wiggle are the ones with a public page you can use today. Nothcy is next, at trynothcy.app. Jabble.io is the marketing toolkit I shipped because I was tired of paying for QR codes.
 
 ## I got tired of paying for QR codes
 Oct 9, 2026
