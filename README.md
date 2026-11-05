@@ -7,7 +7,7 @@ Pages:
 - `/` home
 - `/blog` writing, with topic filters and ⌘K search
 - `/now` what is actually in progress
-- `/judging` how he reviews a product, past events (2024 CODiE Awards, EdAI in Berkeley), and how to invite him
+- `/judging` how he reviews a product, past events (2023 CODiE Awards, EdAI in Berkeley), and how to invite him
 - `/about`
 - six notes under `/blog/`
 
