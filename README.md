@@ -23,4 +23,4 @@ Regenerate the HTML after editing `scripts/build_site.py`:
 python3 scripts/build_site.py
 ```
 
-Figures on the now page are dated November 1, 2026 and cite trybondi.app, wigglemac.com, or GitHub. Bondi’s price and launch day follow the product page. If those change, update the generator and rebuild.
+Figures on the now page are dated November 1, 2026 and cite trybondi.app, wigglemac.com, or GitHub. Bondi’s price and launch day follow the product page. Nothcy’s page is https://trynothcy.app/. If those change, update the generator and rebuild.

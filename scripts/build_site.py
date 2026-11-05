@@ -49,17 +49,17 @@ POSTS = [
         "description": "After product roles at Tesla, TOPPAN Security, Bayut and Dubizzle, I am building my own Mac apps under Jabble and writing about it here.",
         "date": "2026-10-20",
         "display": "Oct 20, 2026",
-        "updated": "2026-11-01",
-        "updated_display": "Nov 1, 2026",
+        "updated": "2026-11-03",
+        "updated_display": "Nov 3, 2026",
         "categories": ["Product"],
         "topics": ["product"],
-        "quick": "I am building indie Mac apps under Jabble, in public, from San Francisco. The two you can look at today are Bondi and Wiggle. Jabble.io is the marketing toolkit I shipped because I was tired of paying for QR codes.",
+        "quick": "I am building indie Mac apps under Jabble, in public, from San Francisco. Bondi and Wiggle are the ones with a public page you can use today. Nothcy is next, at trynothcy.app. Jabble.io is the marketing toolkit I shipped because I was tired of paying for QR codes.",
         "product": "https://jabble.si/",
         "product_name": "Jabble",
         "html": """
 <p>On October 20 I wrote it down in public. After years of product work, I am building the apps myself.</p>
 <p>The long version of the résumé is ordinary and specific. Product at Tesla, TOPPAN Security, Bayut and Dubizzle. Before that, Namshi and HTC Vive. I worked at Apple, too. A bachelor’s from SAE in Dubai, and a master’s from Westcliff. None of that is a studio. Jabble is the studio.</p>
-<p><a href="https://jabble.si/?ref=noamankhalil">Jabble Super Intelligence</a> is where the Mac apps live. <a href="/blog/introducing-bondi">Bondi</a> tells you why a Mac is slow, in one sentence, and checks every number. <a href="/blog/wiggle-early-access">Wiggle</a> shows up at the cursor when you shake the mouse. A third Mac app has no name yet. I will describe it when there is something to show.</p>
+<p><a href="https://jabble.si/?ref=noamankhalil">Jabble Super Intelligence</a> is where the Mac apps live. <a href="/blog/introducing-bondi">Bondi</a> tells you why a Mac is slow, in one sentence, and checks every number. <a href="/blog/wiggle-early-access">Wiggle</a> shows up at the cursor when you shake the mouse. The next one is <a href="https://trynothcy.app/?ref=noamankhalil">Nothcy</a>, at trynothcy.app. I will describe what it does when there is something to show.</p>
 <p><a href="https://jabble.io/?ref=noamankhalil">Jabble.io</a> is the other thread: QR codes, short links, bio pages, file transfer, and campaign analytics. I built it because I was tired of paying for tools a small business should not have to rent.</p>
 <p>I am in San Francisco. Email is the reliable way to reach me. I read <a href="mailto:hi@noamankhalil.com">hi@noamankhalil.com</a>.</p>
 """,
@@ -259,6 +259,7 @@ def footer():
         <ul class="footer-col-list">
           <li><a class="footer-link" href="https://trybondi.app/?ref=noamankhalil" target="_blank" rel="noopener"><img class="footer-link-icon" src="/assets/img/products/bondi.png" alt="" width="16" height="16" loading="lazy">Bondi</a></li>
           <li><a class="footer-link" href="https://wigglemac.com/?ref=noamankhalil" target="_blank" rel="noopener"><img class="footer-link-icon" src="/assets/img/products/wiggle.svg" alt="" width="16" height="16" loading="lazy">Wiggle</a></li>
+          <li><a class="footer-link" href="https://trynothcy.app/?ref=noamankhalil" target="_blank" rel="noopener"><img class="footer-link-icon" src="/assets/img/products/nothcy.svg" alt="" width="16" height="16" loading="lazy">Nothcy</a></li>
           <li><a class="footer-link" href="https://jabble.io/?ref=noamankhalil" target="_blank" rel="noopener"><img class="footer-link-icon" src="/assets/img/products/jabble.svg" alt="" width="16" height="16" loading="lazy">Jabble.io</a></li>
         </ul>
       </nav>
@@ -299,8 +300,8 @@ def head(title, description, path):
                 "email": "mailto:" + EMAIL,
                 "jobTitle": "Founder of Jabble",
                 "homeLocation": "San Francisco, California",
-                "description": description if path == "/" else "Noaman Khalil builds on-device Mac apps under Jabble, including Bondi and Wiggle, and writes about the work at noamankhalil.com.",
-                "sameAs": [href for _, href, _ in SOCIALS] + ["https://jabble.si/", "https://jabble.io/"],
+                "description": description if path == "/" else "Noaman Khalil builds on-device Mac apps under Jabble, including Bondi, Wiggle, and Nothcy, and writes about the work at noamankhalil.com.",
+                "sameAs": [href for _, href, _ in SOCIALS] + ["https://jabble.si/", "https://jabble.io/", "https://trynothcy.app/"],
             },
             {
                 "@type": "WebSite",
@@ -377,7 +378,7 @@ def home():
         writing.append(
             f"""<li class="entry-item"><a class="entry-link writing-link" href="/blog/{post['slug']}"><span class="entry-title">{esc(post['title'])}</span><span class="entry-detail">{esc(post['description'])}</span></a></li>"""
         )
-    desc = "I build on-device Mac apps under Jabble. Bondi explains why your Mac is slow. Wiggle appears at the cursor. I write here about how it goes."
+    desc = "I build on-device Mac apps under Jabble. Bondi explains why your Mac is slow. Wiggle appears at the cursor. Nothcy is next, at trynothcy.app."
     main = f"""<div class="page-frame home-page">
   <section class="content-section profile-section home-hero">
     <img class="avatar" src="/assets/img/noaman.jpg" alt="Noaman Khalil" width="84" height="84">
@@ -394,7 +395,7 @@ def home():
     <ul class="tile-grid" role="list">
       <li><a class="app-tile" href="https://trybondi.app/?ref=noamankhalil" target="_blank" rel="noopener"><span class="app-tile-panel" style="--g0:#1AA6B8;--g1:#0B4F8A"><img class="app-tile-icon" src="/assets/img/products/bondi.png" alt="" width="72" height="72"></span><span class="tile-caption"><b>Bondi.</b> Why your Mac is slow, in one checked sentence.</span><span class="tile-meta">macOS · Alpha, then one-time purchase</span></a></li>
       <li><a class="app-tile" href="https://wigglemac.com/?ref=noamankhalil" target="_blank" rel="noopener"><span class="app-tile-panel" style="--g0:#FF6B6B;--g1:#5B4DFF"><img class="app-tile-icon" src="/assets/img/products/wiggle.svg" alt="" width="72" height="72"></span><span class="tile-caption"><b>Wiggle.</b> Shake the mouse. An assistant appears at the cursor.</span><span class="tile-meta">macOS · Early access</span></a></li>
-      <li><div class="app-tile"><span class="app-tile-panel" style="--g0:#A5A3FF;--g1:#5E5CE6"><img class="app-tile-icon app-tile-icon-small" src="/assets/img/products/soon.svg" alt="" width="56" height="56"></span><span class="tile-caption"><b>A third Mac app.</b> No name yet. I’ll say what it is when there is something to show.</span><span class="tile-meta">In the works</span></div></li>
+      <li><a class="app-tile" href="https://trynothcy.app/?ref=noamankhalil" target="_blank" rel="noopener"><span class="app-tile-panel" style="--g0:#C4B5FD;--g1:#5E5CE6"><img class="app-tile-icon" src="/assets/img/products/nothcy.svg" alt="" width="72" height="72"></span><span class="tile-caption"><b>Nothcy.</b> The next Mac app. The page is trynothcy.app.</span><span class="tile-meta">macOS · In the works</span></a></li>
     </ul>
     <div class="project-group">
       <p class="lead-in"><b>For small teams.</b> The marketing tools I got tired of renting.</p>
@@ -522,6 +523,7 @@ def dev_apps():
     return """<aside class="dev-apps" aria-label="My Mac apps"><p class="dev-apps-label">My Mac apps</p><ul class="dev-apps-list" role="list">
       <li><a class="dev-app" href="https://trybondi.app/?ref=noamankhalil" target="_blank" rel="noopener"><img class="dev-app-icon" src="/assets/img/products/bondi.png" alt="" width="36" height="36"><span class="dev-app-text"><span class="dev-app-name">Bondi</span><span class="dev-app-pitch">Why your Mac is slow, in one sentence</span></span></a></li>
       <li><a class="dev-app" href="https://wigglemac.com/?ref=noamankhalil" target="_blank" rel="noopener"><img class="dev-app-icon" src="/assets/img/products/wiggle.svg" alt="" width="36" height="36"><span class="dev-app-text"><span class="dev-app-name">Wiggle</span><span class="dev-app-pitch">The assistant at your cursor</span></span></a></li>
+      <li><a class="dev-app" href="https://trynothcy.app/?ref=noamankhalil" target="_blank" rel="noopener"><img class="dev-app-icon" src="/assets/img/products/nothcy.svg" alt="" width="36" height="36"><span class="dev-app-text"><span class="dev-app-name">Nothcy</span><span class="dev-app-pitch">trynothcy.app</span></span></a></li>
     </ul></aside>"""
 
 
@@ -563,7 +565,7 @@ def articles():
 
 
 def about():
-    desc = "Noaman Khalil is the founder of Jabble. He builds Bondi and Wiggle, two on-device Mac apps, and writes every article on this site himself."
+    desc = "Noaman Khalil is the founder of Jabble. He builds Bondi, Wiggle, and Nothcy, and writes every article on this site himself."
     main = f"""<div class="page-frame">
   <section class="content-section profile-section">
     <img class="avatar" src="/assets/img/noaman.jpg" alt="Noaman Khalil" width="84" height="84">
@@ -578,7 +580,7 @@ def about():
   <section class="content-section">
     <h2 class="section-title">The studio</h2>
     <p class="prose-line"><a class="inline-link" href="https://jabble.si/?ref=noamankhalil">Jabble</a> builds AI that runs on the machine you already have. No pitch deck. The test is whether I use the thing on my own Mac, and whether someone else would keep it.</p>
-    <p class="prose-line">Today that is Bondi, a system monitor that explains a slow Mac in one checked sentence, and Wiggle, an assistant that appears at the cursor. A third Mac app has no name yet. <a class="inline-link" href="https://jabble.io/?ref=noamankhalil">Jabble.io</a> is the marketing toolkit: QR codes, short links, bio pages, file transfer, and campaign analytics.</p>
+    <p class="prose-line">Today that is Bondi, a system monitor that explains a slow Mac in one checked sentence, and Wiggle, an assistant that appears at the cursor. Nothcy is the next Mac app, at <a class="inline-link" href="https://trynothcy.app/?ref=noamankhalil">trynothcy.app</a>. I will say what it does when there is something to show. <a class="inline-link" href="https://jabble.io/?ref=noamankhalil">Jabble.io</a> is the marketing toolkit: QR codes, short links, bio pages, file transfer, and campaign analytics.</p>
   </section>
   <section class="content-section">
     <h2 class="section-title">What I build</h2>
@@ -586,7 +588,7 @@ def about():
     <ul class="now-focus-list">
       <li class="now-focus-item"><b>Bondi.</b> Why your Mac is slow, in one sentence. The number is measured, then checked. <a class="inline-link" href="https://trybondi.app/?ref=noamankhalil">trybondi.app</a></li>
       <li class="now-focus-item"><b>Wiggle.</b> Shake the mouse. Chat, screenshot, voice, or a recorded workflow, at the cursor. <a class="inline-link" href="https://wigglemac.com/?ref=noamankhalil">wigglemac.com</a></li>
-      <li class="now-focus-item"><b>A third Mac app.</b> In development. No name until there is something to show.</li>
+      <li class="now-focus-item"><b>Nothcy.</b> The next Mac app. The page is <a class="inline-link" href="https://trynothcy.app/?ref=noamankhalil">trynothcy.app</a>. I will describe it when there is something to show.</li>
       <li class="now-focus-item"><b>Jabble.io.</b> QR codes, short links, bio pages, and campaign analytics. <a class="inline-link" href="https://jabble.io/?ref=noamankhalil">jabble.io</a></li>
       <li class="now-focus-item"><b>Nomad for Mac.</b> An offline survival computer. <a class="inline-link" href="https://github.com/NoamanKhalil/project-nomad-MacOs">GitHub</a></li>
       <li class="now-focus-item"><b>Keyboard-pico.</b> A keyboard I open sourced. <a class="inline-link" href="https://github.com/NoamanKhalil/Keyboard-pico">GitHub</a></li>
@@ -617,7 +619,7 @@ def about():
 
 
 def now():
-    desc = "What Noaman Khalil is actually working on: Bondi in alpha, Wiggle in early access, Jabble.io, and a third Mac app with no name yet."
+    desc = "What Noaman Khalil is actually working on: Bondi in alpha, Wiggle in early access, Nothcy at trynothcy.app, and Jabble.io."
     shipped = "".join(
         f"""<li class="timeline-item"><span class="timeline-date">{esc(post['display'])}</span><a class="timeline-link" href="/blog/{post['slug']}"><span class="timeline-title">{esc(post['title'])}</span><span class="timeline-detail">{esc(post['description'])}</span></a></li>"""
         for post in POSTS
@@ -626,14 +628,14 @@ def now():
   <section class="content-section">
     <h1 class="profile-title">What I’m working on</h1>
     <p class="profile-lead">I run Jabble and build its Mac apps. This page is what I am actually doing right now, not a roadmap dressed up as news.</p>
-    <p class="now-updated">Last updated November 1, 2026</p>
+    <p class="now-updated">Last updated November 3, 2026</p>
   </section>
   <section class="content-section">
     <h2 class="section-title">Current focus</h2>
     <ul class="now-focus-list">
       <li class="now-focus-item"><b>Bondi.</b> In alpha on real Macs. Trust work, then the beta, then launch on Tuesday, February 2, 2027. The sentence has to survive a check against numbers Bondi measured itself.</li>
       <li class="now-focus-item"><b>Wiggle.</b> Early access. Shake to open, then chat, screenshot, voice, or a workflow. I am not calling it launched until there is a public build and a price.</li>
-      <li class="now-focus-item"><b>A third Mac app.</b> No name. Nothing to announce.</li>
+      <li class="now-focus-item"><b>Nothcy.</b> The next Mac app. The page is <a class="inline-link" href="https://trynothcy.app/?ref=noamankhalil">trynothcy.app</a>. I will describe it when there is something to show.</li>
       <li class="now-focus-item"><b>Jabble.io.</b> Still the free-first marketing toolkit: QR codes, short links, bio pages, file transfer, campaign analytics.</li>
       <li class="now-focus-item"><b>Writing.</b> Notes when something is true, not a posting schedule.</li>
     </ul>
@@ -797,6 +799,7 @@ def llm_files():
         "## Products",
         "- Bondi, Mac system monitor, alpha, launch February 2, 2027: https://trybondi.app/",
         "- Wiggle, Mac assistant at the cursor, early access: https://wigglemac.com/",
+        "- Nothcy, the next Mac app: https://trynothcy.app/",
         "- Jabble: https://jabble.si/",
         "- Jabble.io marketing tools: https://jabble.io/",
         "- Nomad for Mac: https://github.com/NoamanKhalil/project-nomad-MacOs",
@@ -867,7 +870,7 @@ Regenerate the HTML after editing `scripts/build_site.py`:
 python3 scripts/build_site.py
 ```
 
-Figures on the now page are dated November 1, 2026 and cite trybondi.app, wigglemac.com, or GitHub. Bondi’s price and launch day follow the product page. If those change, update the generator and rebuild.
+Figures on the now page are dated November 1, 2026 and cite trybondi.app, wigglemac.com, or GitHub. Bondi’s price and launch day follow the product page. Nothcy’s page is https://trynothcy.app/. If those change, update the generator and rebuild.
 """,
     )
 
