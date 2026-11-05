@@ -19,6 +19,7 @@ Studio: hello@jabble.si
 - Writing: https://noamankhalil.com/blog
 - Now: https://noamankhalil.com/now
 - Judging: https://noamankhalil.com/judging
+- Past events: 2023 CODiE Awards (SIIA education technology, 38th year, judge); EdAI Berkeley Fall Summit, October 31–November 1, 2026, Anna Head Alumnae Hall (judge)
 - About: https://noamankhalil.com/about
 - Wiggle is in early access: https://noamankhalil.com/blog/wiggle-early-access
 - Going solo, in public: https://noamankhalil.com/blog/going-solo

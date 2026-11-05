@@ -694,7 +694,7 @@ def now():
 
 
 def judging():
-    desc = "Noaman Khalil judges hackathons, demo days, and product reviews. He wants the problem in one sentence, real use, and numbers that hold."
+    desc = "Noaman Khalil judges hackathons, demo days, and product reviews. Past rooms include the 2023 CODiE Awards and the EdAI summit in Berkeley."
     main = f"""<div class="page-frame">
   <section class="content-section">
     <h1 class="profile-title">Judging</h1>
@@ -713,6 +713,13 @@ def judging():
     <h2 class="section-title">How a session goes</h2>
     <p class="prose-line">You get a few minutes. I listen for the sentence, then I ask one question about use and one about the number. Feedback is specific. I will tell you what I would cut.</p>
     <p class="prose-line">I am a better judge of Mac apps, on-device software, and tools a small team would actually pay for or keep. If the product is outside that, say so in the invite. I will still show up when I can be useful.</p>
+  </section>
+  <section class="content-section">
+    <h2 class="section-title">Past events</h2>
+    <ul class="now-focus-list">
+      <li class="now-focus-item"><b>EdAI, Berkeley.</b> October 31 and November 1, 2026, at Anna Head Alumnae Hall. Students spent two days on a real problem and showed the work. I judged. <a class="inline-link" href="https://edai.fun/berkeley-fall-summit-2026">The summit</a>.</li>
+      <li class="now-focus-item"><b>2023 CODiE Awards.</b> SIIA’s peer-reviewed education technology awards, the 38th year. I was a judge. <a class="inline-link" href="https://www.siia.net/siia-announces-2023-codie-award-winners-for-education-technology/">The 2023 awards</a>.</li>
+    </ul>
   </section>
   <section class="content-section contact-section">
     <h2 class="section-title">Invite</h2>
@@ -800,6 +807,7 @@ def llm_files():
         f"- Writing: {SITE}/blog",
         f"- Now: {SITE}/now",
         f"- Judging: {SITE}/judging",
+        "- Past events: 2023 CODiE Awards (SIIA education technology, 38th year, judge); EdAI Berkeley Fall Summit, October 31–November 1, 2026, Anna Head Alumnae Hall (judge)",
         f"- About: {SITE}/about",
     ]
     for post in POSTS:
@@ -843,7 +851,7 @@ Pages:
 - `/` home
 - `/blog` writing, with topic filters and ⌘K search
 - `/now` what is actually in progress
-- `/judging` how he reviews a product, and how to invite him
+- `/judging` how he reviews a product, past events (2023 CODiE Awards, EdAI in Berkeley), and how to invite him
 - `/about`
 - six notes under `/blog/`
 
