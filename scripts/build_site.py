@@ -372,7 +372,7 @@ def home():
         writing.append(
             f"""<li class="entry-item"><a class="entry-link writing-link" href="/blog/{post['slug']}"><span class="entry-title">{esc(post['short_title'] if post['slug'] != 'introducing-bondi' else post['title'])}</span><span class="entry-detail">{esc(post['description'])}</span></a></li>"""
         )
-    # Use full titles on the home list, matching the source site.
+    # Use full titles on the home list.
     writing = []
     for post in POSTS[:5]:
         writing.append(
@@ -847,7 +847,7 @@ def readme():
         "README.md",
         """# noamankhalil.com
 
-Personal site for Noaman Khalil. The layout follows [attacomsian.com](https://attacomsian.com/): a narrow column, a sticky bar, project tiles, a short archive, a now page, and an about page. The words, products, and portrait are Noaman’s.
+Personal site for Noaman Khalil. A narrow column, a sticky bar, project tiles, a short archive, a now page, and an about page. The words, products, and portrait are his.
 
 Pages:
 
