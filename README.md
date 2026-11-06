@@ -1,6 +1,6 @@
 # noamankhalil.com
 
-Personal site for Noaman Khalil. The layout follows [attacomsian.com](https://attacomsian.com/): a narrow column, a sticky bar, project tiles, a short archive, a now page, and an about page. The words, products, and portrait are Noaman’s.
+Personal site for Noaman Khalil. The layout follows : a narrow column, a sticky bar, project tiles, a short archive, a now page, and an about page. The words, products, and portrait are Noaman’s.
 
 Pages:
 
